@@ -1,13 +1,16 @@
 function Navbar(){
     return(
-        <div className="navbar">
+        <nav className="navbar">
+  <div className="container nav-content">
+    <ul>
             <h1>First Bite🎂</h1>
-            <div className="nav-links">
-                <p>HOME</p>
-                <p>PRODUCTS</p>
-                <p>CART</p>
+                <li>HOME</li>
+                <li>PRODUCTS</li>
+                <li>CART</li>
+                </ul>
             </div>
-        </div>
+        
+        </nav>
     )
 }
 

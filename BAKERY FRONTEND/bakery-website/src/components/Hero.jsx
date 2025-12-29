@@ -1,10 +1,12 @@
 function Hero(){
     return(
-        <div className="hero">
+        <section className="hero">
+            <div className="container hero-content">
             <h1>FRESHLY BAKED CAKES STRAIGHT FROM THE OVEN</h1>
             <p>Order delicious Cakes , pastries , brownies and more!</p>
-
-        </div>
+            </div>
+        </section>
+        
     )
 }
 export default Hero
